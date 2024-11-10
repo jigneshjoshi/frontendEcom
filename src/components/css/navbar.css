@@ -1,0 +1,19 @@
+.custom-navbar {
+    background-color: pink; /* Pink background color */
+    color: white;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link,
+.custom-navbar .navbar-text {
+    color: white; /* White text for contrast */
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .dropdown-item:hover {
+    color: #ffc0cb; /* Lighter pink for hover effect */
+}
+
+.custom-navbar .dropdown-toggle::after {
+    color: white;
+}
